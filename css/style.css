@@ -1,0 +1,165 @@
+
+*{
+    font-family: "Playfair Display", serif;
+}
+body{
+    background-color:  #f3f0e4;
+}
+.bgFooter{
+    background-color:  #d3c5b3;
+}
+.caption{
+    font-family: 'Ephesis', cursive;
+    color: #ee2d7a;
+    font-weight: bolder;
+}
+.color{
+    color: #ee2d7a;
+    font-weight: bolder;
+}
+.clr{
+    clear: both;
+}
+.btn{
+    background: linear-gradient(to right , #cf9163, #a06b42);
+    color: white;
+}
+.btn:hover{
+    background: linear-gradient(to right , #cf9163, #804e27);
+    color: white;
+}
+.card{
+    border: none !important;
+}
+.over{
+    overflow: hidden;
+}
+.col-md-6 , .col-md-7 , .col-md-5{
+    padding-left: 0 !important; 
+    padding-right: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+/****loading****/
+#loading
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999999999;
+    background-color: #fdefe1;
+   
+}
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 250px auto;
+  }
+  
+  .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #333;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+  }
+  .sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s; }
+  .sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s; }
+  .sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  
+  @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1); 
+    }
+  }
+  
+  @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+    } 
+  }
+/* ********** end loading ******* */
+
+/*** section 1 slider ***/
+
+.bgSlider1{
+    background-image: url(../images/prod2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.bgSlider2{
+    background-image: url(../images/prod.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/*** end section 1 slider ***/
+
+/*** star section 2 ***/
+.bg{
+    background-image: url(../images/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.imgStyle{
+    border-radius: 50%;
+    border: solid 8px black;
+    transition: .5s;
+    overflow: hidden;
+}
+.image{
+    overflow: hidden;
+}
+.imgStyle:hover{
+    cursor: pointer;
+    transition: .5s;
+    border: solid 8px rgb(145, 143, 143);
+}
+
+/*** star section 3 ***/
+.bgsection{
+    background-image: url(../images/parallax2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
